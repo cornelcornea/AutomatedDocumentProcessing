@@ -1,0 +1,2 @@
+# AutomatedDocumentProcessing
+Disertatie Automated Document Processing
