@@ -3,7 +3,7 @@ import pytesseract
 from pytesseract import Output
 
 img = cv2.imread('sample-invoice.jpg')
-
+#
 d = pytesseract.image_to_data(img, output_type=Output.DICT)
 n_boxes = len(d['text'])
 for i in range(n_boxes):
